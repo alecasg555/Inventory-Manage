@@ -1,6 +1,9 @@
 # Inventory App
 The Inventory App is a CRUD application built with React that allows you to manage a list of products and orders. It includes a JSON server that runs on port 8000 and provides two endpoints: products and orders.
-
+  
+# Traducción de idiomas
+La App de Inventario está disponible en inglés y español. Para cambiar el idioma, haga clic en el texto "inglés" o "español" en la barra de navegación en la parte superior derecha de la pantalla.
+  
 # Docker
 The Inventory App can also be run as a Docker container. To run the app in a container, follow these steps:
 
