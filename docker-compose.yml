@@ -1,0 +1,15 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./.dockerfile 
+    ports:
+      - '3000:3000'
+  api:
+    image: 'clue/json-server'
+    command: json-server --watch /data/db.json --port 8000
+    ports:
+      - '8000:8000'
+    volumes:
+      - './data:/data'

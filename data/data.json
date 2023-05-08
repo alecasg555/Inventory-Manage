@@ -1,0 +1,90 @@
+{
+  "products": [
+    {
+      "name": "asdf",
+      "reference": "a",
+      "description": "a",
+      "price": 2000,
+      "tax": 5,
+      "amount": 2,
+      "id": 8,
+      "realProductAmount": 5
+    },
+    {
+      "name": "asdf",
+      "reference": "asdf",
+      "description": "asdf",
+      "price": 30000,
+      "tax": 10,
+      "amount": 4,
+      "id": 9,
+      "realProductAmount": 5
+    },
+    {
+      "name": "aa",
+      "reference": "bb",
+      "description": "cvc",
+      "price": 40000,
+      "tax": 10,
+      "amount": 0,
+      "id": 10,
+      "realProductAmount": 1
+    }
+  ],
+  "orders": [
+    {
+      "productsList": [
+        {
+          "name": "asdf",
+          "reference": "asdf",
+          "description": "asdf",
+          "price": 10000,
+          "tax": "55",
+          "amount": 2,
+          "id": 7,
+          "realProductAmount": 5
+        }
+      ],
+      "totalValue": 20000,
+      "totalValueWithTaxes": 31000,
+      "id": 1
+    },
+    {
+      "productsList": [
+        {
+          "name": "asdf",
+          "reference": "asdf",
+          "description": "asdf",
+          "price": 10000,
+          "tax": "55",
+          "amount": 2,
+          "id": 7,
+          "realProductAmount": 3
+        },
+        {
+          "name": "asdf",
+          "reference": "a",
+          "description": "a",
+          "price": 2000,
+          "tax": 5,
+          "amount": 3,
+          "id": 8,
+          "realProductAmount": 1
+        },
+        {
+          "name": "asdf",
+          "reference": "asdf",
+          "description": "asdf",
+          "price": 30000,
+          "tax": 10,
+          "amount": 1,
+          "id": 9,
+          "realProductAmount": 1
+        }
+      ],
+      "totalValue": 56000,
+      "totalValueWithTaxes": 70300,
+      "id": 2
+    }
+  ]
+}
