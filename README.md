@@ -1,8 +1,8 @@
 # Inventory App
 The Inventory App is a CRUD application built with React that allows you to manage a list of products and orders. It includes a JSON server that runs on port 8000 and provides two endpoints: products and orders.
   
-# Traducción de idiomas
-La App de Inventario está disponible en inglés y español. Para cambiar el idioma, haga clic en el texto "inglés" o "español" en la barra de navegación en la parte superior derecha de la pantalla.
+# Language Translate
+The Inventory Manage app it's available in english and spanish. To change the language, make click on the text "english" or "espanol" in the top right of the screen.
   
 # Docker
 The Inventory App can also be run as a Docker container. To run the app in a container, follow these steps:
@@ -36,14 +36,15 @@ To install and use the Inventory App, follow these steps:
 `npm start`
   
 # Use the app:
-### The app will be available on http://localhost:3000.
-### View a list of products on the homepage.
-### Add new products by clicking on the "Add Product" button and filling out the form.
-### Edit or delete existing products by clicking on the corresponding buttons in the product list.
-### View the details of a product by clicking on the product name in the product list.
-### Create orders by clicking on the "Orders" link in the navigation bar, filling out the form and selecting the desired products.
-### View a list of orders by clicking on the "Orders" link in the navigation bar.
-### API
+ The app will be available on http://localhost:3000.
+ View a list of products on the homepage.
+ Add new products by clicking on the "Add Product" button and filling out the form.
+ Edit or delete existing products by clicking on the corresponding buttons in the product list.
+ View the details of a product by clicking on the product name in the product list.
+ Create orders by clicking on the "Orders" link in the navigation bar, filling out the form and selecting the desired products.
+ View a list of orders by clicking on the "Orders" link in the navigation bar.
+   
+# API
   
 # The JSON server provides two endpoints:
 
