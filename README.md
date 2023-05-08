@@ -32,8 +32,8 @@ To install and use the Inventory App, follow these steps:
 ### API
 # The JSON server provides two endpoints:
 
-### `/products: Returns a list of all products in the inventory.`
-### `/orders: Returns a list of all orders.`
+ `/products: Returns a list of all products in the inventory.`  
+ `/orders: Returns a list of all orders.`
 
 The JSON server can be accessed at http://localhost:8000.
 
