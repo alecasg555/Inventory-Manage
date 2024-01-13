@@ -1,27 +1,23 @@
-# Crea una imagen basada en Node
+# CREATE A IMAGE BASE ON NODE
 FROM node:latest
 
-# Establece el directorio de trabajo en /app
+# STABLISHING WORKDIRECTORY IN /APP
 WORKDIR /app
 
-# Copia los archivos de package.json y package-lock.json al directorio de trabajo
+# COPY PACKAGE.JSON AND PACKAGE-LOCK.JSON TO WORKSPACE
 COPY package*.json ./
 
-# Instalando json-server
-RUN npm install -g json-server
-
-# Instala las dependencias del proyecto
+# INSTALL PROJECT DEPENDECIES
 RUN npm install
 
-# Copia el resto de los archivos al directorio de trabajo
+# COPY APP TO WORKSPACE
 COPY . /app
 
-# Expone el puerto 3000 for inventory app
+# EXPOSE PORT 3000
 EXPOSE 3000
 
-# Expone el puerto 8000 for Json server data
+# EXPOSE PORT 8000
 EXPOSE 8000
 
-
-# Inicia json-server y la aplicacion
+# Start App
 CMD npm start
